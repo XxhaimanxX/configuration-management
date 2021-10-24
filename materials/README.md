@@ -1,7 +1,7 @@
 # Configuration Management With Ansible Materials
 
 ## Working environment setup
-use the terraform folder provided in this section [see: **here** ➡️](./../../materials/terraform/README.md)
+Use the terraform folder provided in this section [see: **here** ➡️](./../../materials/terraform/README.md)
 
 ## Videos
 
