@@ -1,13 +1,11 @@
-# Welcome to Something Unbelievably Easy Assignment!
+# Welcome to Your First Configuration Management Assignment!
 
 ## About The Assignment
 
-The assignment is tests subject **A** and then contoniue to connect to **B**
-
-## The Problem
-A is broken and you cannot touch B until you do A
+This assignment is here to make sure you are coming to the first session prepared.
 
 ## Your mission
-Solve A then solve B
+
+Your mission is to create a development environment, read all the materials that are mentioned in the prerequisites document, watch the video's and answer the attached quiz.
 
 [Next: **Prerequisites** ➡️](prerequisites.md)

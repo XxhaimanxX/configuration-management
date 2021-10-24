@@ -1,4 +1,3 @@
-# Dummy Subject's Assignments
+# Ansible assignments
 
-- [Something Very Hard](something-very-hard/)
-- [Something Unbelievably Easy](something-unbelievably-easy/)
+- [Session-1-pre-assignment](pre-class-assignment/)
