@@ -1,3 +1,12 @@
-# Dummy Subject Materials
+# Configuration Management With Ansible Materials
 
-This is the place for common docs and other files that are shared with all tha assignments or not directly connected to one of the assignments
+## Working environment setup
+use the terraform folder provided in this section [see: **here** ➡️](./../../materials/terraform/README.md)
+
+## Videos
+
+[Ansible Essentials: Simplicity in Automation](https://www.udemy.com/course/ansible-essentials-simplicity-in-automation/)
+## Reading Materials
+
+[Syntax - Ansible Documentation](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
+[YAML Idiosyncrasies](https://docs.saltstack.com/en/latest/topics/troubleshooting/yaml_idiosyncrasies.html)
