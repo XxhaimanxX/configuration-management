@@ -1,0 +1,48 @@
+#  Local .terraform directories
+**/.terraform/*
+.terraform*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+# *.tfvars
+
+# kubernetes tf files and data 
+kubernetes-cluster/data/
+kubernetes-cluster/kubernetes.tf
+
+# datestamp file
+datestamp.txt
+
+# ansible retry files
+**/*.retry
+
+# terraform s3 
+
+**/s3:
+# idea
+.idea
+
+# python
+
+#bin/
+#lib/
+include/
+pip-selfcheck.json
+
+
+# asdf
+.tool-versions
+
+
+# helm
+.DS_Store
+
+# kubeconfigs
+kubeconfig_*
+
+.vscode
+
+*.pem
