@@ -1,12 +1,20 @@
-# Local .terraform directories
-**/.terraform
+#  Local .terraform directories
+**/.terraform/*
+.terraform*
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
-*.terraform.lock.hcl
-
-.terraform/
 
 .tool-versions
 .vscode
+
+# .tfvars files
+ *.tfvars
+
+# ansible retry files
+**/*.retry
+
+.vscode
+*.pem
+
