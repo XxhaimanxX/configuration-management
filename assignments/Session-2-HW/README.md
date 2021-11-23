@@ -14,7 +14,8 @@ Please go over the mandatory prerequisites below.
 
 ## Home Assignment Submission
 
-Submit your assignment in the same github repo as you did in the first assignment. Create a **Homework2** directory, and create a pull request to your master branch with your second homework assignment.
+Submit your assignment in the same github repo as you did in the first assignment.
+Create a new branch with a **Homework2** directory, and create a pull request to your master branch with your second homework assignment.
 In the directory, add Screen Captures of your successful runs of the playbooks on all Nodes.
 
-[Next: **Start Assignment** ➡️](1-assignment.md)
+[Next: **Start Assignment** ➡️](assignment.md)
