@@ -10,3 +10,4 @@ in variables.tf file, change the following values:
 
     - vpc_id
     - subnet_id
+    
