@@ -11,7 +11,7 @@ data "aws_ami" "ubuntu" {
 
   filter {
     name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-*"]
+    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
   }
 
   filter {
@@ -28,12 +28,12 @@ resource "tls_private_key" "server_key" {
 }
 
 resource "aws_key_pair" "server_key" {
-  key_name   = "server_key"
+  key_name   = "server_key_8"
   public_key = tls_private_key.server_key.public_key_openssh
 }
 
 resource "aws_security_group" "ansible-sg" {
- name        = "ansible-sg-7"
+ name        = "ansible-sg-8"
  description = "security group for ansible servers"
  vpc_id      = var.vpc_id
   egress {
@@ -73,6 +73,11 @@ resource "aws_instance" "server" {
 
   vpc_security_group_ids = [aws_security_group.ansible-sg.id]
   key_name               = aws_key_pair.ansible_key.key_name
+
+  user_data = <<EOF
+#! /bin/bash
+sudo apt update && sudo apt install ansible -y
+EOF
 
   tags = {
     Name = "Server"
