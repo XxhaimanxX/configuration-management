@@ -22,16 +22,6 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Canonical
 }
 
-resource "tls_private_key" "server_key" {
-  algorithm = "RSA"
-  rsa_bits  = 4096
-}
-
-resource "aws_key_pair" "server_key" {
-  key_name   = "server_key_8"
-  public_key = tls_private_key.server_key.public_key_openssh
-}
-
 resource "aws_security_group" "ansible-sg" {
  name        = "ansible-sg-8"
  description = "security group for ansible servers"
