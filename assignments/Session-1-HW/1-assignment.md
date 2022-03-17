@@ -30,6 +30,9 @@ How to install docker - [here](https://docs.docker.com/engine/install/ubuntu/)
 - Restart docker
 - Use handlers to restart service
 
+it is preferable to run specific modules rather the built in shell modules per task.
+
+
 ## Part 2
 
 1. Create a dynamic inventory out of your current nodes - no matter what method (preferably EC2_plugin)
