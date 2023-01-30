@@ -4,7 +4,7 @@
     - [Syntax - Ansible Documentation](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
     -  [YAML Idiosyncrasies](https://docs.saltstack.com/en/latest/topics/troubleshooting/yaml_idiosyncrasies.html)
 
-2. Sign up for [DevOps Beginners Guide to Automation With Ansible](https://www.udemy.com/course/devops-beginners-guide-to-automation-with-ansible/) class in Udemy and complete the course
+2. Sign up for [Ansible-Fundamentals]([https://www.udemy.com/course/devops-beginners-guide-to-automation-with-ansible/](https://app.pluralsight.com/library/courses/ansible-fundamentals/table-of-contents) class in Pluralsight and complete the course
 
 
 3. Answer the following [quiz](https://forms.gle/VFeRJvCKSySD1KpE7)
