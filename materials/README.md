@@ -5,7 +5,7 @@ Use the terraform folder provided in this section [see: **here** ➡️](../../m
 
 ## Videos
 
-[DevOps Beginners Guide to Automation With Ansible](https://www.udemy.com/course/devops-beginners-guide-to-automation-with-ansible/)
+[Ansible Fundamentals](https://app.pluralsight.com/library/courses/ansible-fundamentals/table-of-contents)
 
 ## Reading Materials
 
