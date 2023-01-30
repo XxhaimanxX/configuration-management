@@ -4,12 +4,7 @@
     - [Syntax - Ansible Documentation](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
     -  [YAML Idiosyncrasies](https://docs.saltstack.com/en/latest/topics/troubleshooting/yaml_idiosyncrasies.html)
 
-2. Sign up for [Ansible Essentials: Simplicity in Automation](https://www.udemy.com/course/ansible-essentials-simplicity-in-automation/) class in Udemy and complete chapters 1-5 (watch all parts including Playbooks).
-During chapter 4 practice the following (using Ad Hoc commands):
-
-    - Collect facts from the server on both nodes using the setup module
-    - Create a personal user on both nodes
-    - Copy /etc/hosts file from the server to /tmp on both nodes and remove it (2 separate commands).
+2. Sign up for [DevOps Beginners Guide to Automation With Ansible](https://www.udemy.com/course/devops-beginners-guide-to-automation-with-ansible/) class in Udemy and complete the course
 
 
 3. Answer the following [quiz](https://forms.gle/VFeRJvCKSySD1KpE7)
