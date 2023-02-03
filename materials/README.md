@@ -1,7 +1,7 @@
 # Configuration Management With Ansible Materials
 
 ## Working environment setup
-Use the terraform folder provided in this section [see: **here** ➡️](../../materials/terraform)
+Use the terraform folder provided in this section [see: **here** ➡️](../materials/terraform)
 
 ## Videos
 
