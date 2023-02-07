@@ -11,6 +11,7 @@ set ssh user for this group
 - Using the file module - create the following directories on the web group:
 ~/opsschool
 ~/opsschool/ansible
+/etc/opsschool
 
 - With the User module create a user with a password:
 name: opsschool
@@ -36,9 +37,10 @@ it is preferable to run specific modules rather the built in shell modules per t
 ## Part 2
 
 1. Create a dynamic inventory out of your current nodes - no matter what method (preferably EC2_plugin)
-2. Edit the docker_setup.yml playbook, add the following shell command to it as part of a task ```sudo docker run -d -p 8080:80 nginx```
+2. Edit your docker setup playbook (created in section 1.3), add the following shell command to it as part of a task ```sudo docker run -d -p 8080:80 nginx```
 3. Run the playbook on your dynamic inventory - both nodes
 4. To check your success, in your browser navigate to <<node_public_ip>>:8080
+5. Come prepared to talk about why step 2 of this assignment is bad practice
 
 ** Note: make sure the nodes' security group allows access over port 8080
 
