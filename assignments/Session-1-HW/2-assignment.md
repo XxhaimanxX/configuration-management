@@ -2,7 +2,7 @@
 
 ## Prerequisites for the 2nd session
 
-watch videos 6-10 in [Ansible Essentials: Simplicity in Automation](https://www.udemy.com/course/ansible-essentials-simplicity-in-automation/) - regarding Roles.
+Watch the Playbooks and Roles sections again - we will be talking about Loops, Conditionals and Roles next class - [Ansible-fundamentals](https://app.pluralsight.com/library/courses/ansible-fundamentals/table-of-contents)
 
 # 🏁 That it your'e done!🏁 
 
