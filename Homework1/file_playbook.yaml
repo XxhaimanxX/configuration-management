@@ -1,0 +1,42 @@
+---
+- name: File module playbook
+  hosts: webservers
+  tasks:
+    - name: Creating file
+      file:
+        path: ~/some_content.txt
+        state: touch
+    - name: Echo text to file
+      shell: echo "I am a text file I exist on the nodes" >> some_content.txt
+      args:
+        chdir: ~/
+    - name: Compress file and delete it
+      archive:
+        path: ~/some_content.txt
+        dest: ~/some_content.tar.gz
+        format: gz
+        force_archive: true
+        remove: true
+    - name: wget
+      get_url:
+        url: http://icanhazip.com
+        dest: ~/index.html
+    - name: Creating opsschool user
+      user:
+        name: opsschool
+        password: $1$D6/ElE13$PtWa.zXCm7MAODty81lKn/
+        home: /opsschool
+      become: true
+    - name: Creating directories
+      file:
+        path: "{{ item }}"
+        state: directory
+      loop:
+        - ~/opsschool
+        - ~/opsschool/ansible
+      become: true
+    - name: Creating /etc/opsschool directory
+      file:
+        path: /etc/opsschool
+        state: directory
+      become: true

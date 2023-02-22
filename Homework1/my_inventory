@@ -1,0 +1,6 @@
+[webservers]
+node0
+node1
+
+[webservers:vars]
+ansible_user=ubuntu
