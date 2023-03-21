@@ -1,0 +1,34 @@
+---
+- name: Installing Docker and Nginx
+  hosts: redhat
+  user: ec2-user
+  roles:
+    - role: './roles'
+  vars:
+    container_name: my_nginx_container
+    container_image: nginx:stable
+    docker_engine_pkg_list:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+      - docker-buildx-plugin
+      - docker-compose-plugin
+    docker_users_group_for_redhat:
+      - ec2-user
+- name: Installing Docker and Nginx
+  hosts: ubuntu
+  user: ubuntu
+  roles:
+    - role: './roles'
+  vars:
+    container_name: my_nginx_container
+    container_image: nginx:stable
+    docker_engine_pkg_list:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+      - docker-buildx-plugin
+      - docker-compose-plugin
+    docker_users_group_for_ubuntu:
+      - ubuntu
+      - docker_user
